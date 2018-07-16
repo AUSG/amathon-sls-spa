@@ -1,0 +1,21 @@
+{
+  "name": "amathon-sls-spa",
+  "version": "1.0.0",
+  "description": "Serverless Framework로 SPA 배포하기",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://jeehyukwon@github.com/jeehyukwon/amathon-sls-spa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeehyukwon/amathon-sls-spa/issues"
+  },
+  "homepage": "https://github.com/jeehyukwon/amathon-sls-spa#readme",
+  "dependencies": {
+    "@vue/cli": "^3.0.0-rc.5"
+  }
+}
