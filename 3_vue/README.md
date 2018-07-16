@@ -7,12 +7,6 @@
 
 
 
-## Vue CLI 3 설치
-
-> 본 실습 워크샵은 Vue.js Boilerplate로 최신 버전의 [Vue CLI 3](https://cli.vuejs.org)를 사용합니다
-
-
-
 ### npm에 대하여
 
 - `npm`(Node Package Manager)은 프로젝트 내에서 사용되는 라이브러리들의 의존성을 관리합니다.
@@ -38,9 +32,15 @@
 
 
 
+## Vue CLI 3 설치
+
+> 본 실습 워크샵은 Vue.js Boilerplate로 최신 버전의 [Vue CLI 3](https://cli.vuejs.org)를 사용합니다
+
 본 레포지토리의 root에는 `package.json` 파일이 존재합니다. 해당 파일을 확인합시다.
 
 파일 내용을 확인했다면, `npm install` 을 입력하여 `package.json`에 포함된 의존성 라이브러리를 모두 설치합니다. (Vue CLI 3 가 포함되어 있습니다.)
+
+![screenshot](./images/screenshot-8.png)
 
 
 
