@@ -1,12 +1,12 @@
 
 
-# -IAM에서 유저 생성하기
+# IAM에서 유저 생성하기
 
 ### 학습 목표
 
 IAM User를 생성하고 내 로컬 컴퓨터에 해당 인증 정보를 저장한다
 
-# IAM User 생성하기
+## IAM 설정하기
 
 - AWS Console로 이동
 
@@ -36,7 +36,7 @@ IAM User를 생성하고 내 로컬 컴퓨터에 해당 인증 정보를 저장�
 
   ![screenshot-6.png](./images/screenshot-6.png)
 
-  # 내 로컬 컴퓨터에 해당 계정 정보 등록하기
+  ## 내 로컬 컴퓨터에 해당 계정 정보 등록하기
 
 - 터미널(Terminal.app)을 열고 `aws configure` 명령어를 입력합니다.
 
