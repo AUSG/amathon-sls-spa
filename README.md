@@ -79,11 +79,11 @@ AUSG가 야심차게 준비한 Amathon에 참가 신청해주신 여러분께 �
 # 자 그럼 이제 시작해볼까요?
 
 1. 오늘 만들어 볼 Architecture에 대하여
-2. IAM에서 유저 생성하기
-3. Vue-cli 3(@vue/cli)를 통해 새로운 Vue.js 앱 생성하기
-4. Serverless Framework과 각종 플러그인 설치, serverless.yml 작성하기
-5. CLI를 사용하여 쉽게 배포하기
-6. CLI를 사용하여 쉽게 삭제하기
+2. [IAM에서 유저 생성하기](./2_iam)
+3. [새로운 Vue.js 앱 생성하기](./3_vue)
+4. [Serverless Framework과 각종 플러그인 설치, serverless.yml 작성하기](./4_sls)
+5. [CLI를 사용하여 쉽게 배포하기](./5_deploy)
+6. [CLI를 사용하여 쉽게 삭제하기](6_delete)
 
 
 
