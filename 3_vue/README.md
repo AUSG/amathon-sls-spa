@@ -7,7 +7,7 @@
 
 
 
-### npm에 대하여
+### npm에 관하여
 
 - `npm`(Node Package Manager)은 프로젝트 내에서 사용되는 라이브러리들의 의존성을 관리합니다.
 
@@ -15,7 +15,7 @@
 
   
 
-### 기본 명령어 (참고)
+### npm 기본 명령어 (참고)
 
 - `npm install [라이브러리명]` 
   - `node_modules` 폴더 내부에 해당 라이브러리가 저장 된 후 `package.json` 의 `dependencies` 프로퍼티에 해당 항목의 메타 정보가 저장됩니다.
