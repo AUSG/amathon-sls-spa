@@ -53,6 +53,13 @@ $ npx vue create amathon-hands-on
 ```
 
 - 선택 항목이 나오면 원하는 기술 스택을 선택합니다. 본 실습 세미나에서는 기술 스택이 크게 관련이 없으므로 모두 기본값으로 진행합니다.
+
+![screenshot-1](./images/screenshot-1.png)
+
+![screenshot-2](./images/screenshot-2.png)
+
+![screenshot-3](./images/screenshot-3.png)
+
 - `amathon-hands-on` 폴더가 생성된 모습을 확인 할 수 있습니다.
 
 
@@ -66,11 +73,19 @@ $ cd amathon-hands-on
 $ npm run serve
 ```
 
+![screenshot-4](./images/screenshot-4.png)
+
+![screenshot-5](./images/screenshot-5.png)
+
 - 개발 서버가 잘 작동하는지 확인하셨다면, 빌드해봅니다
 
 ```bash
 $ npm run build
 ```
+
+![screenshot-6](./images/screenshot-6.png)
+
+![screenshot-7](./images/screenshot-7.png)
 
 - `dist` 폴더 내부에 빌드 된 `.html`, `.css`, `.js` 파일이 존재하는지 확인합니다.
 
