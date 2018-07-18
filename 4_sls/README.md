@@ -161,6 +161,8 @@ $ npm run deploy
 
 ![screenshot-7](./images/screenshot-7.png)
 
-![screenshot-8](./images/screenshot-8.png)
+![screenshot-9](./images/screenshot-9.png)
+
+![screenshot-10](./images/screenshot-10.png)
 
 ### 축하드립니다!🎉🎉 여러분의 SPA 앱이 Serverless Framework을 통해 배포 되었습니다. 아직 끝나지 않았습니다. 다음 챕터인 [삭제 가이드](../5_delete/README.md) 로 이동하세요.
