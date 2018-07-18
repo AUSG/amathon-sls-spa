@@ -94,10 +94,10 @@ $ pip3 install aws-cli
 # 자 그럼 이제 시작해볼까요?
 
 1. 오늘 만들어 볼 Architecture에 대하여
-2. [IAM에서 유저 생성하기](./2_iam)
-3. [새로운 Vue.js 앱 생성하기](./3_vue)
-4. [Serverless Framework 이용해 배포하기](./4_sls)
-5. [삭제 가이드](./5_delete)
+2. [IAM에서 유저 생성하기](./2_iam/README.md)
+3. [새로운 Vue.js 앱 생성하기](./3_vue/README.md)
+4. [Serverless Framework 이용해 배포하기](./4_sls/README.md)
+5. [삭제 가이드](./5_delete/README.md)
 
 
 

@@ -118,4 +118,4 @@ $ npm run build
 
 
 
-### 축하드립니다🎉🎉 `새로운 Vue.js 앱 생성하기` 챕터를 성공적으로 마치셨습니다. 다음 챕터인 [Serverless Framework 이용해 배포하기](../4_sls) 로 이동하세요
+### 축하드립니다🎉🎉 `새로운 Vue.js 앱 생성하기` 챕터를 성공적으로 마치셨습니다. 다음 챕터인 [Serverless Framework 이용해 배포하기](../4_sls/README.md) 로 이동하세요
