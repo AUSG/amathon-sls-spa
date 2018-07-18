@@ -24,7 +24,7 @@ AUSG가 야심차게 준비한 Amathon에 참가 신청해주신 여러분, 진�
 
 ## 0. 본 Github Repository를 Download 해주세요!
 
-중간중간 실습 파일들이 업로드 되어있습니다. 워크샵 시작 전 미리 다운 받아주세요! [다운로드](https://github.com/jeehyukwon/amathon-sls-spa/archive/master.zip)
+중간중간 실습 파일들이 업로드 되어있습니다. 워크샵 시작 전 미리 다운 받아주세요! [다운로드](https://github.com/witherion/amathon-sls-spa/archive/master.zip)
 
 
 
