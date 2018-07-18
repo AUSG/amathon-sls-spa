@@ -51,7 +51,7 @@ $ npx [명령어...]
 파일 내용을 확인했다면, 아래 명령어를 입력하여 `package.json`에 포함된 의존성 라이브러리를 모두 설치합니다. (Vue CLI 3 가 포함되어 있습니다.)
 
 ```bash
-$ npm install
+$ npm i
 ```
 
 
@@ -86,20 +86,23 @@ module.exports = {
 }
 ```
 
+![screenshot-9](./images/screenshot-9.png)
+
 >다음 옵션은 Vue CLI 3로 Scaffold 한 프로젝트에만 유효합니다. React나 기타 다른 SPA Framework을 사용하신다면, 본 실습 워크샵의 Context를 완전히 이해 하신 뒤 Serverless 환경에 맞는 설정 값들을 찾으셔야 합니다.
 
-## Build
 
-- 해당 폴더로 이동하여, 개발 서버를 작동시켜봅니다
+
+## 빌드
+
+- 해당 폴더로 이동 후, 아래의 명령어를 통해 개발 서버를 작동시켜 봅니다
 
 ```bash
-$ cd amathon-hands-on
 $ npm run serve
 ```
 
-![screenshot-4](./images/screenshot-4.png)
+![screenshot-4](./images/screenshot-10.png)
 
-![screenshot-5](./images/screenshot-5.png)
+![screenshot-5](./images/screenshot-11.png)
 
 - 개발 서버가 잘 작동하는지 확인하셨다면, 빌드해봅니다
 
@@ -111,7 +114,7 @@ $ npm run build
 
 ![screenshot-7](./images/screenshot-7.png)
 
-- `dist` 폴더 내부에 빌드 된 `.html`, `.css`, `.js` 파일이 존재하는지 확인합니다.
+- `/dist/assets` 폴더 내부에 빌드 된 `.html`, `.css`, `.js` 파일이 존재하는지 확인합니다.
 
 
 
