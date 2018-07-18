@@ -15,20 +15,30 @@
 
   
 
-### npm 기본 명령어 (참고)
+### npm 기본 명령어 - 최신 버전 기준
 
-- `npm install [라이브러리명]` 
-  - `node_modules` 폴더 내부에 해당 라이브러리가 저장 된 후 `package.json` 의 `dependencies` 프로퍼티에 해당 항목의 메타 정보가 저장됩니다.
-- `npm install -g [라이브러리명]`
-  - 해당 라이브러리를 global로 설치합니다. *주로 CLI 설치에 사용*
-- `npm install --save-dev [라이브러리명]`
-  - `node_modules` 폴더 내부에 해당 라이브러리가 저장 된 후 `package.json` 의 `devDependencies` 프로퍼티에 해당 항목의 메타 정보가 저장됩니다.
-- `npm install`
-  - `package.json` 과  `package-lock.json` 파일을 참조하여 언급되어진 모든 라이브러리를 `node_modules` 폴더 아래에 설치합니다.
-- `npm uninstall [라이브러리명]`
-  - 해당 라이브러리를 `node_modules` 와 `dependencies` or `devDependencies` 에서 삭제합니다.
-- `npx [명령어]`
-  - `node_modules` 에 설치된 라이브러리 중 CLI를 지원하는 라이브러리를 실행합니다.
+```bash
+# node_modules 폴더 내부에 해당 라이브러리가 저장 된 후 package.json 의 dependencies 프로퍼티에 해당 항목의 메타 정보가 저장됩니다. (최신 버전 기준)
+$ npm install [라이브러리명]
+$ npm i [라이브러리명]
+
+# 해당 라이브러리를 global로 설치합니다. 주로 CLI 설치에 사용
+$ npm install -g [라이브러리명]
+
+# node_modules 폴더 내부에 해당 라이브러리가 저장 된 후 package.json 의 devDependencies 프로퍼티에 해당 항목의 메타 정보가 저장됩니다.
+$ npm install --save-dev [라이브러리명]
+$ npm i -D [라이브러리명]
+
+# package.json 과  package-lock.json 파일을 참조하여 언급되어진 모든 라이브러리를 node_modules 폴더 아래에 설치합니다.
+$ npm install
+$ npm i
+
+# 해당 라이브러리를 node_modules 와 dependencies or devDependencies 에서 삭제합니다.
+$ npm uninstall [라이브러리명]
+
+# node_modules 에 설치된 라이브러리 중 CLI를 지원하는 라이브러리를 실행합니다.
+$ npx [명령어...]
+```
 
 
 
@@ -36,9 +46,15 @@
 
 > 본 실습 워크샵은 Vue.js Boilerplate로 최신 버전의 [Vue CLI 3](https://cli.vuejs.org)를 사용합니다
 
-본 레포지토리의 root에는 `package.json` 파일이 존재합니다. 해당 파일을 확인합시다.
+본 레포지토리 최상단 폴더에 `package.json` 파일이 존재합니다. 해당 파일을 확인하세요.
 
-파일 내용을 확인했다면, `npm install` 을 입력하여 `package.json`에 포함된 의존성 라이브러리를 모두 설치합니다. (Vue CLI 3 가 포함되어 있습니다.)
+파일 내용을 확인했다면, 아래 명령어를 입력하여 `package.json`에 포함된 의존성 라이브러리를 모두 설치합니다. (Vue CLI 3 가 포함되어 있습니다.)
+
+```bash
+$ npm install
+```
+
+
 
 ![screenshot](./images/screenshot-8.png)
 
@@ -70,7 +86,7 @@ module.exports = {
 }
 ```
 
-
+>다음 옵션은 Vue CLI 3로 Scaffold 한 프로젝트에만 유효합니다. React나 기타 다른 SPA Framework을 사용하신다면, 본 실습 워크샵의 Context를 완전히 이해 하신 뒤 Serverless 환경에 맞는 설정 값들을 찾으셔야 합니다.
 
 ## Build
 
