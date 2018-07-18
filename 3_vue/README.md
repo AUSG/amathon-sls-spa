@@ -104,6 +104,8 @@ $ npm run serve
 
 ![screenshot-5](./images/screenshot-11.png)
 
+![screenshot-12](./images/screenshot-12.png)
+
 - 개발 서버가 잘 작동하는지 확인하셨다면, 빌드해봅니다
 
 ```bash
