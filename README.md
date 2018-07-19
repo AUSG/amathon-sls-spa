@@ -70,9 +70,9 @@ AUSG가 야심차게 준비한 Amathon에 참가 신청해주신 여러분, 진�
 AWS IAM 정보를 로컬 컴퓨터에 담기 위해서 반드시 AWS CLI 설치가 필요합니다. AWS CLI는 Python 런타임을 반드시 필요로 하며 설치는 Python의 의존성 관리 툴인 `pip` 를 통해 진행됩니다.
 
 ```bash
-$ pip install aws-cli
+$ pip install awscli
 # 또는
-$ pip3 install aws-cli
+$ pip3 install awscli
 ```
 
 
